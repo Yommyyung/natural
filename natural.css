@@ -1,0 +1,306 @@
+/* RESET CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.dropdown-content a:hover,
+.dropdown-content:focus{
+    font-size: 1rem;
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding: 60px;
+    
+}
+
+nav{
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+
+.list{
+    list-style-type: none;
+}
+
+li{
+    float: left;
+    padding: 20px;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 20px;
+}
+
+li a{
+    text-decoration: none;
+    color: #000;
+    text-transform: capitalize;
+}
+
+li a:hover{
+    font-size: 1.2rem;
+}
+
+
+img{
+    background-color: white;
+}
+
+
+.dropbtn{
+   background-color: white;
+   border: none;
+   text-transform: capitalize;
+   font-weight: bolder;
+   
+}
+
+
+
+
+
+.dropdown-content a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+
+
+
+#wed{
+    color: blue;
+    border: solid green;
+    border-right:none ;
+    border-top:none ;
+    border-bottom:none ;
+    padding-left: 30px;
+}
+
+#weed{
+    color: lightblue;
+}
+
+#wipe{
+    color: darksalmon;
+    font-size: 20px;
+}
+
+#search{
+    border: solid 1px rgb(219, 213, 213);
+    padding: 8px 5px 11px 5px;
+    border-left: none;
+    color:  grey;
+}
+
+.history{
+    background-image: url("industry.jpg" );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-transform: capitalize;
+    padding: 10px;
+    opacity: 100%;
+}
+
+.pare{
+    text-transform: lowercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+
+}
+
+h1{
+    font-size: 50px;
+}
+.para{
+    color: green;
+}
+
+.first-section{
+    width: 900px;
+}
+
+.ministry{
+    display: grid;
+    grid-auto-flow: column;
+}
+p{
+    margin: 10px;
+}
+
+h6{
+    font-size: 26px;
+}
+.second-section{
+    text-transform: capitalize;
+}
+
+form{
+    margin-left: 40px; 
+    color: black; 
+}
+
+input{
+    width: 250px;
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    text-align: center;
+    border: none;
+    background-color: rgb(219, 213, 213);
+    margin: 1px;
+}
+
+.search{
+    margin-left: 20px;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.input{
+    text-align: start;
+    border: solid 1px rgb(219, 213, 213);
+    background-color: white;
+    width: 200px;
+}
+
+.imput{
+    background-color: black;
+    color: white;
+}
+
+.hero{
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    border-bottom: solid 1px rgb(219, 213, 213);
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+.hero1{
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.hero p:hover{
+    text-decoration: underline;
+}
+.hero1 p:hover{
+    text-decoration: underline;
+}
+
+.pair{
+    color: grey;
+}
+
+figcaption, img{
+    border-radius: 20px;
+}
+
+th,td{
+   border: solid 1px grey;
+    padding: 10px;
+}
+
+footer{
+    background-color: rgb(31, 30, 30);
+    margin-top: 50px;
+    padding: 10px;
+    color: white;
+}
+
+.links{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template: 350px 300px;
+}
+
+
+
+.links p{
+    text-transform: capitalize;
+    color: rgb(172, 159, 159);
+    cursor: pointer;
+}
+
+.links p:hover{
+    text-decoration: underline;
+}
+
+.arrow{
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    padding: 10px;
+}
+i{
+    color: lawngreen;
+}
+
+h4{
+    font-size: 26px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-left: 10px;
+}
+
+.king{
+    text-align: center;
+    border-top: solid 1px rgb(46, 42, 42);
+    padding: 20px;
+}
+
+.king a{
+    padding: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color:rgb(172, 159, 159) ;
+}
+.king a:hover{
+    text-decoration: underline;
+}
+
+.copy{
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px;
+    margin: 10px;
+    color: rgb(172, 159, 159);
+}
+
+
+
+#face{
+    color: white;
+    border: solid 1px  rgb(172, 159, 159) ;
+    padding: 10px;
+    border-radius: 50%;
+}
+
